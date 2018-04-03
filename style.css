@@ -1,0 +1,21 @@
+.container{
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0% {background-color: red;}
+    50% {background-color: yellow;}
+    1000% {background-color: red;}
+}
+
+/* Standard syntax */
+@keyframes example {
+        0% {background-color: red;}
+        50% {background-color: yellow;}
+        1000% {background-color: red;}
+}
